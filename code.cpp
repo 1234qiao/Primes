@@ -11,5 +11,5 @@ int main(){
 	cin>>min>>max;
 	cout<<endl;
 	cout<<"结果："<<endl; 
-	for(long long i=2;i<=n;i++) if(isp(i)) cout<<i<<' ';
+	for(long long i=min;i<=max;i++) if(isp(i)) cout<<i<<' ';
 } 
